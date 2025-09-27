@@ -1,4 +1,4 @@
-from fonction import fac, exp
+from fonctions import fac, exp
 
 print("Welcome!")
 print("This program calculates the total number of combinations ")
@@ -87,4 +87,5 @@ if nb == 0:
     print("This scenario is impossible due to k > n without repetition")
 else : 
     print(f"The total number of possibilities is {int(nb)}")
+
     print(f"And so, the winning probability is {1/nb:.8%}")
